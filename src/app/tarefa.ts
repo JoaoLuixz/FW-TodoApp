@@ -7,3 +7,14 @@ export class Tarefa {
         this.statusRealizada = _statusRealizada;
     }
 }
+export class User{
+    id: string | undefined;
+    usernameAdm: string;
+    //passwordAdm: string;
+    isAdm: boolean;
+    constructor(_username: string, _isADM: boolean) {
+        this.usernameAdm = _username;
+        //this.passwordAdm = _password;
+        this.isAdm = _isADM;
+    }
+}
